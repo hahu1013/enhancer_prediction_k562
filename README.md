@@ -139,9 +139,11 @@ To check whether the initial matches reflected real motif signal or compositiona
 
 If instead the cluster has only broad compositional signal with no specific motif position, realignment should weaken the apparent match. Compositional preferences do not have a peak position to align to.
 
-![Match scores after peak-saliency realignment](interpretation/motif_matches_realigned_grid.png)
+Realignment caused match scores to collapse rather than strengthen. Cluster 0's match to GATA1 dropped from 0.738 to 0.106, a 7x reduction. Cluster 2's match to Sp1 dropped from 0.570 to 0.390. Clusters 1 and 4 lost so many members during realignment that they could not be evaluated.
 
-Realignment caused match scores to collapse, not strengthen. Cluster 0's match to GATA1 dropped from 0.738 to 0.106, a 7x reduction. Cluster 2's match to Sp1 dropped from 0.570 to 0.390. Clusters 1 and 4 lost so many members during realignment that they could not be evaluated. If GATA1 binding sites were really driving cluster 0, sharpening the alignment to peak attention should have done the opposite.
+![Peak-saliency realignment test, with cluster panels on zoomed y-axis](interpretation/motif_matches_realigned_rescaled.png)
+
+The realigned panels make the result visible. After aligning each cluster 0 member to its peak-saliency position, the most-attended base is a single C around position 13, not the A and T letters GATA1 binding would require. Cluster 2's realigned PWM is similarly flat across 656 sequences, with only weak GC preference near the center. If a real GATA1 binding site had been driving cluster 0, peak-alignment would have sharpened the signal into a recognizable motif pattern. Instead it picks out a C, which confirms that the model's attention concentrates on regions rather than on specific binding sequences.
 
 ### What the model actually learned
 
