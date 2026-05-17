@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# macOS
+.DS_Store
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large data files (none currently in repo, but prevent accidents)
+*.pt
+*.fa
+*.fa.gz
+*.bed.gz
+data/labels/*.npy
+
+# Claude Code session state
+.claude/

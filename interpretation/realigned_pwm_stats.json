@@ -1,0 +1,31 @@
+{
+  "ism_output": "/gpfs/data/zhou-lab/haoyanghu/projects/enhancer_prediction/interpretation/ism_saliency_chr10.npz",
+  "align_half": 10,
+  "min_saliency": null,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "tf_name": "GATA1",
+      "jaspar_matrix_id": "MA2388.1",
+      "original_size": 130,
+      "n_kept": 37,
+      "original_match_score": 0.7375865274404152,
+      "realigned_match_score": 0.106125921370652,
+      "realigned_mean_ic": 0.0643881064870184,
+      "realigned_max_ic": 0.25022344753445513,
+      "realigned_max_ic_pos": 13
+    },
+    {
+      "cluster_id": 2,
+      "tf_name": "Sp1",
+      "jaspar_matrix_id": "MA2279.1",
+      "original_size": 739,
+      "n_kept": 656,
+      "original_match_score": 0.5703318583954798,
+      "realigned_match_score": 0.3899029795609799,
+      "realigned_mean_ic": 0.01738270799641506,
+      "realigned_max_ic": 0.06540955138638616,
+      "realigned_max_ic_pos": 10
+    }
+  ]
+}

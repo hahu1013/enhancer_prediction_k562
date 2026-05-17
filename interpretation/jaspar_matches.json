@@ -1,0 +1,531 @@
+{
+  "cluster_pwms_path": "/gpfs/data/zhou-lab/haoyanghu/projects/enhancer_prediction/interpretation/cluster_pwms.npz",
+  "jaspar_pfm_file": "/gpfs/data/zhou-lab/haoyanghu/data/jaspar/JASPAR2024_CORE_non-redundant_pfms_jaspar.txt",
+  "n_jaspar_entries": 2346,
+  "k562_tf_list": [
+    "BACH1",
+    "FOS",
+    "FOSL1",
+    "FOSL2",
+    "GATA1",
+    "GATA2",
+    "JUN",
+    "KLF1",
+    "MAFK",
+    "MYB",
+    "MYC",
+    "NFY-A",
+    "NFY-B",
+    "NFYA",
+    "NFYB",
+    "NRF1",
+    "RUNX1",
+    "SP1",
+    "TAL1"
+  ],
+  "top_n_matches": 3,
+  "max_offset": 5,
+  "timestamp": "2026-05-15T14:14:31",
+  "per_cluster": [
+    {
+      "cluster_id": 0,
+      "size": 130,
+      "top_matches_all": [
+        {
+          "matrix_id": "MA2069.1",
+          "name": "PK10955.1",
+          "score": 0.7756419687522828,
+          "offset": 2,
+          "overlap": 5
+        },
+        {
+          "matrix_id": "MA0302.2",
+          "name": "GAT4",
+          "score": 0.7712820721201044,
+          "offset": -2,
+          "overlap": 4
+        },
+        {
+          "matrix_id": "MA2084.1",
+          "name": "PK23009.1",
+          "score": 0.7643122076417111,
+          "offset": 2,
+          "overlap": 5
+        }
+      ],
+      "top_matches_k562": [
+        {
+          "matrix_id": "MA0035.5",
+          "name": "GATA1",
+          "score": 0.7375865274404152,
+          "offset": -3,
+          "overlap": 4
+        },
+        {
+          "matrix_id": "MA0036.4",
+          "name": "GATA2",
+          "score": 0.7374455944796494,
+          "offset": -3,
+          "overlap": 4
+        },
+        {
+          "matrix_id": "MA2388.1",
+          "name": "GATA1",
+          "score": 0.47634004988766127,
+          "offset": -2,
+          "overlap": 8
+        }
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "size": 40,
+      "top_matches_all": [
+        {
+          "matrix_id": "MA1809.2",
+          "name": "GLYMA-07G038400",
+          "score": 0.8480502147394012,
+          "offset": -3,
+          "overlap": 4
+        },
+        {
+          "matrix_id": "MA1736.2",
+          "name": "AT5G04390",
+          "score": 0.8428173945894024,
+          "offset": 0,
+          "overlap": 5
+        },
+        {
+          "matrix_id": "MA0582.2",
+          "name": "RAV1",
+          "score": 0.8324248852703937,
+          "offset": -3,
+          "overlap": 3
+        }
+      ],
+      "top_matches_k562": [
+        {
+          "matrix_id": "MA2279.1",
+          "name": "Sp1",
+          "score": 0.5623623276446063,
+          "offset": -1,
+          "overlap": 8
+        },
+        {
+          "matrix_id": "MA0060.4",
+          "name": "NFYA",
+          "score": 0.514715691233111,
+          "offset": 0,
+          "overlap": 8
+        },
+        {
+          "matrix_id": "MA0478.2",
+          "name": "FOSL2",
+          "score": 0.5081815202694543,
+          "offset": -2,
+          "overlap": 8
+        }
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "size": 739,
+      "top_matches_all": [
+        {
+          "matrix_id": "MA0349.2",
+          "name": "OPI1",
+          "score": 0.8245816163315914,
+          "offset": -3,
+          "overlap": 2
+        },
+        {
+          "matrix_id": "MA2347.1",
+          "name": "OS04G0486400",
+          "score": 0.816252146833198,
+          "offset": -3,
+          "overlap": 2
+        },
+        {
+          "matrix_id": "MA2138.1",
+          "name": "klu-2",
+          "score": 0.8075225611954789,
+          "offset": -3,
+          "overlap": 4
+        }
+      ],
+      "top_matches_k562": [
+        {
+          "matrix_id": "MA2279.1",
+          "name": "Sp1",
+          "score": 0.5703318583954798,
+          "offset": -1,
+          "overlap": 8
+        },
+        {
+          "matrix_id": "MA0100.4",
+          "name": "MYB",
+          "score": 0.48603425812323087,
+          "offset": -2,
+          "overlap": 4
+        },
+        {
+          "matrix_id": "MA0506.3",
+          "name": "Nrf1",
+          "score": 0.4462756392852894,
+          "offset": 3,
+          "overlap": 12
+        }
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "size": 2,
+      "top_matches_all": [
+        {
+          "matrix_id": "MA1871.2",
+          "name": "FoxM",
+          "score": 0.9106895879623356,
+          "offset": -3,
+          "overlap": 3
+        },
+        {
+          "matrix_id": "MA1866.2",
+          "name": "FoxI-a",
+          "score": 0.877010332096853,
+          "offset": -3,
+          "overlap": 3
+        },
+        {
+          "matrix_id": "MA1924.2",
+          "name": "Tlx",
+          "score": 0.8763404216665116,
+          "offset": -3,
+          "overlap": 3
+        }
+      ],
+      "top_matches_k562": [
+        {
+          "matrix_id": "MA0035.5",
+          "name": "GATA1",
+          "score": 0.5275594766299954,
+          "offset": -1,
+          "overlap": 6
+        },
+        {
+          "matrix_id": "MA0488.2",
+          "name": "JUN",
+          "score": 0.42692222806830366,
+          "offset": 2,
+          "overlap": 10
+        },
+        {
+          "matrix_id": "MA0060.4",
+          "name": "NFYA",
+          "score": 0.3908433155238711,
+          "offset": -1,
+          "overlap": 7
+        }
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "size": 79,
+      "top_matches_all": [
+        {
+          "matrix_id": "MA0349.2",
+          "name": "OPI1",
+          "score": 0.8244822982240343,
+          "offset": -3,
+          "overlap": 2
+        },
+        {
+          "matrix_id": "MA0103.4",
+          "name": "ZEB1",
+          "score": 0.7873585052179015,
+          "offset": -2,
+          "overlap": 4
+        },
+        {
+          "matrix_id": "MA0820.2",
+          "name": "FIGLA",
+          "score": 0.7817174132620969,
+          "offset": -2,
+          "overlap": 4
+        }
+      ],
+      "top_matches_k562": [
+        {
+          "matrix_id": "MA0100.4",
+          "name": "MYB",
+          "score": 0.6661197293975861,
+          "offset": -2,
+          "overlap": 4
+        },
+        {
+          "matrix_id": "MA0147.4",
+          "name": "MYC",
+          "score": 0.551130018646736,
+          "offset": 4,
+          "overlap": 8
+        },
+        {
+          "matrix_id": "MA0493.3",
+          "name": "KLF1",
+          "score": 0.48221378676661675,
+          "offset": 3,
+          "overlap": 8
+        }
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "size": 2,
+      "top_matches_all": [
+        {
+          "matrix_id": "MA2002.2",
+          "name": "Zfp335",
+          "score": 0.7510122702538653,
+          "offset": 3,
+          "overlap": 7
+        },
+        {
+          "matrix_id": "MA1206.2",
+          "name": "ARF2",
+          "score": 0.7506697748421715,
+          "offset": 4,
+          "overlap": 6
+        },
+        {
+          "matrix_id": "MA0615.2",
+          "name": "Gmeb1",
+          "score": 0.7291763271165158,
+          "offset": -3,
+          "overlap": 3
+        }
+      ],
+      "top_matches_k562": [
+        {
+          "matrix_id": "MA0036.4",
+          "name": "GATA2",
+          "score": 0.5472401604134887,
+          "offset": -1,
+          "overlap": 6
+        },
+        {
+          "matrix_id": "MA0147.4",
+          "name": "MYC",
+          "score": 0.5043665346785245,
+          "offset": 5,
+          "overlap": 8
+        },
+        {
+          "matrix_id": "MA0100.4",
+          "name": "MYB",
+          "score": 0.5039483357902933,
+          "offset": 1,
+          "overlap": 6
+        }
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "size": 5,
+      "top_matches_all": [
+        {
+          "matrix_id": "MA2385.1",
+          "name": "estExt_gwp_gw1.C_220046",
+          "score": 0.9962429608212571,
+          "offset": -3,
+          "overlap": 1
+        },
+        {
+          "matrix_id": "MA1016.2",
+          "name": "GATA15",
+          "score": 0.9883763283041311,
+          "offset": -3,
+          "overlap": 1
+        },
+        {
+          "matrix_id": "MA1755.2",
+          "name": "GATA4",
+          "score": 0.9856470893759309,
+          "offset": -3,
+          "overlap": 1
+        }
+      ],
+      "top_matches_k562": [
+        {
+          "matrix_id": "MA0060.4",
+          "name": "NFYA",
+          "score": 0.6684243174388702,
+          "offset": 0,
+          "overlap": 8
+        },
+        {
+          "matrix_id": "MA0506.3",
+          "name": "Nrf1",
+          "score": 0.6474157733881607,
+          "offset": 5,
+          "overlap": 12
+        },
+        {
+          "matrix_id": "MA0100.4",
+          "name": "MYB",
+          "score": 0.44608574766572384,
+          "offset": 2,
+          "overlap": 6
+        }
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "size": 1,
+      "top_matches_all": [
+        {
+          "matrix_id": "MA1272.3",
+          "name": "DOF2.2",
+          "score": 0.9999994976028563,
+          "offset": -3,
+          "overlap": 3
+        },
+        {
+          "matrix_id": "MA2326.1",
+          "name": "IKZF2",
+          "score": 0.9999595340368348,
+          "offset": -3,
+          "overlap": 3
+        },
+        {
+          "matrix_id": "MA0442.3",
+          "name": "SOX10",
+          "score": 0.999909335238764,
+          "offset": -3,
+          "overlap": 3
+        }
+      ],
+      "top_matches_k562": [
+        {
+          "matrix_id": "MA0100.4",
+          "name": "MYB",
+          "score": 0.49001559629555874,
+          "offset": -1,
+          "overlap": 5
+        },
+        {
+          "matrix_id": "MA0493.3",
+          "name": "KLF1",
+          "score": 0.47968913401305463,
+          "offset": -3,
+          "overlap": 5
+        },
+        {
+          "matrix_id": "MA0079.5",
+          "name": "SP1",
+          "score": 0.4419982803043954,
+          "offset": 2,
+          "overlap": 9
+        }
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "size": 1,
+      "top_matches_all": [
+        {
+          "matrix_id": "MA2154.1",
+          "name": "snai-1",
+          "score": 0.9999999999999999,
+          "offset": -2,
+          "overlap": 5
+        },
+        {
+          "matrix_id": "MA0349.2",
+          "name": "OPI1",
+          "score": 0.9999999999999998,
+          "offset": -3,
+          "overlap": 2
+        },
+        {
+          "matrix_id": "MA0103.4",
+          "name": "ZEB1",
+          "score": 0.9998206984427255,
+          "offset": -2,
+          "overlap": 4
+        }
+      ],
+      "top_matches_k562": [
+        {
+          "matrix_id": "MA0100.4",
+          "name": "MYB",
+          "score": 0.6510371263441871,
+          "offset": -2,
+          "overlap": 4
+        },
+        {
+          "matrix_id": "MA0147.4",
+          "name": "MYC",
+          "score": 0.5777286338815734,
+          "offset": -3,
+          "overlap": 5
+        },
+        {
+          "matrix_id": "MA0489.3",
+          "name": "Jun",
+          "score": 0.5255660974976801,
+          "offset": 5,
+          "overlap": 8
+        }
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "size": 1,
+      "top_matches_all": [
+        {
+          "matrix_id": "MA1964.2",
+          "name": "SMAD2",
+          "score": 0.9999945009713536,
+          "offset": -3,
+          "overlap": 3
+        },
+        {
+          "matrix_id": "MA1748.2",
+          "name": "DREB1F",
+          "score": 0.9999225851428674,
+          "offset": -3,
+          "overlap": 3
+        },
+        {
+          "matrix_id": "MA0982.2",
+          "name": "DOF2.4",
+          "score": 0.9999075064254833,
+          "offset": -3,
+          "overlap": 1
+        }
+      ],
+      "top_matches_k562": [
+        {
+          "matrix_id": "MA0100.4",
+          "name": "MYB",
+          "score": 0.7830096271097476,
+          "offset": 4,
+          "overlap": 6
+        },
+        {
+          "matrix_id": "MA0488.2",
+          "name": "JUN",
+          "score": 0.6730674726115036,
+          "offset": -2,
+          "overlap": 8
+        },
+        {
+          "matrix_id": "MA1951.2",
+          "name": "FOS",
+          "score": 0.6327745014120688,
+          "offset": -3,
+          "overlap": 10
+        }
+      ]
+    }
+  ]
+}
