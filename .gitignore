@@ -33,3 +33,6 @@ data/labels/*.npy
 
 # Claude Code session state
 .claude/
+
+# Office/Keynote temporary lock files
+~$*
