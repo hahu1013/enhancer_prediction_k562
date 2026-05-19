@@ -16,7 +16,7 @@ The hypothesis is that initializing the model from Puffin-D weights produces a b
 
 ## Data
 
-The model takes 100,000 base pairs of DNA as input and outputs a per-base probability that each position is part of a K562 enhancer.
+The model takes 100,000 base pairs of DNA as input and outputs a per-base probability that each position is part of a K562 enhancer. Input sequences are drawn from the GRCh38 (hg38) human reference genome.
 
 Ground truth labels come from intersecting two ENCODE resources. Candidate cis-regulatory elements (cCREs) define genomic intervals with regulatory potential based on accessibility and histone marks. K562 H3K27ac ChIP-seq identifies which cCREs are active in K562 specifically. A base is labeled positive if it falls within a cCRE that overlaps a K562 H3K27ac peak.
 
