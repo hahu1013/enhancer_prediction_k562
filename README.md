@@ -34,7 +34,7 @@ The architecture is Puffin-D, a CNN with dilated convolutions arranged in a doub
 
 I replaced Puffin-D's original output layer with a binary classification head suited for enhancer prediction. Everything else, including the backbone, is unchanged.
 
-Training used binary cross-entropy loss with `pos_weight=25` to address the class imbalance. AdamW optimizer with weight decay 1e-4 and learning rate 5e-4. Learning rate decays on plateau. Each epoch processes 2,500 windows sampled from the training chromosomes. Batch size 4. Mixed precision training on a single GPU.
+Training used binary cross-entropy loss with `pos_weight=25` to address the class imbalance. AdamW optimizer with weight decay 1e-4 and learning rate 2e-3 with plateau decay, reused from prior Puffin-D-backed work in the lab. Each epoch processes 2,500 windows sampled from the training chromosomes. Batch size 4. Mixed precision training on a single GPU.
 
 The two models differ only in their starting weights. The from-scratch model begins with random initialization. The pretrained model begins with Puffin-D's released weights, which were trained on promoter-related tasks. Both are then fine-tuned on K562 enhancer labels using the procedure above.
 
